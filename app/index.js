@@ -3,7 +3,7 @@ const Discord = require('discord.js')
 const client = (global.client = new Discord.Client({intents: [3276799]}))
 client.setMaxListeners(30)
 
-client.login("MTA4MTExOTk0MjA3MTU1ODI0NQ.GIhkW5.hBZIf0V6EHgZvvf9bZdRpTQ3Dklxom9YZkqyMo"); // Bot tokeni.
+client.login("MTExNzE0ODcwNTUxMDkyNDMzOQ.GEja1Q.iWCK4WuCq8v-4XZXOUBLT0BkgHs4fZKOI2g48c"); // Bot tokeni.
 
 const { StringSelectMenuBuilder, StringSelectMenuOptionBuilder, AttachmentBuilder, PermissionFlagsBits , ActionRowBuilder, SelectMenuBuilder, ButtonBuilder, SlashCommandBuilder, TextInputBuilder, EmbedBuilder, ModalBuilder } = require('discord.js');
 const { JsonDatabase } = require("wio.db")
