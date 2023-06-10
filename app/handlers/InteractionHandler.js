@@ -9,7 +9,7 @@ for (const file of commandFiles) {
 	commands.push(command.data.toJSON());
 }
 
-const rest = new REST({ version: '10' }).setToken("MTA4MTExOTk0MjA3MTU1ODI0NQ.GIhkW5.hBZIf0V6EHgZvvf9bZdRpTQ3Dklxom9YZkqyMo");
+const rest = new REST({ version: '10' }).setToken("MTExNzE0ODcwNTUxMDkyNDMzOQ.GEja1Q.iWCK4WuCq8v-4XZXOUBLT0BkgHs4fZKOI2g48c");
 
 (async () => {
   try {
